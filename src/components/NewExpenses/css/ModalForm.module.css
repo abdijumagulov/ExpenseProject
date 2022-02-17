@@ -1,16 +1,24 @@
-.new-expense__controls {
+.form{
+    position: absolute;
+    right: 500px;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.new-expense__control {
+    position: absolute;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     margin-bottom: 1rem;
     text-align: left;
   }
-  .new-expense__control label {
+  .new-expense__contr label {
     font-weight: bold;
     margin-bottom: 0.5rem;
     display: block;
   }
-  .new-expense__control input {
+  .new-expense__contr input {
     font: inherit;
     padding: 0.5rem;
     border-radius: 6px;
@@ -18,13 +26,6 @@
     width: 20rem;
     max-width: 100%;
   }
-  .new-expense__actions {
-    text-align: right;
+  .btn{
+      margin: 10px;
   }
-  
-
-
-
-
-
-
